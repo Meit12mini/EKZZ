@@ -1,0 +1,404 @@
+@font-face {
+  font-family: "TT Lakes";
+  src: url("./font/TTLakes-Medium.woff") format(woff);
+  font-style: normal;
+  font-weight: 600;
+  font-family: "TT Lakes-Bold";
+  src: url("./font/TTLakes-DemiBold.woff") format(woff);
+  font-style: Bold;
+  font-weight: 500;
+}
+
+html {
+  overflow-x: hidden;
+}
+.burger--main {
+  background-color: #d9d9d9;
+}
+.burger {
+  left: -100%;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #d9d9d9;
+  transition: transform.5s;
+}
+.burger--tittle {
+  height: 80px;
+  width: 100%;
+  background-color: #d9d9d9;
+}
+.burger--spicok {
+  line-height: 45px;
+  font-family: "TT Lakes";
+  padding: 10px, 20px;
+  list-style-type: none;
+}
+.burger--logo {
+  text-align: center;
+}
+.burger--phone {
+  position: relative;
+  height: 40px;
+  width: 40px;
+  background-color: #ff3e79;
+  border-radius: 50%;
+  margin-left: auto;
+  margin-right: 10px;
+  margin-top: 15px;
+}
+.footer {
+  margin-top: 100px;
+  margin-left: 40px;
+}
+.footer--icon {
+  height: 50px;
+  width: 180px;
+  display: flex;
+  justify-content: space-between;
+}
+.footer--any--icon {
+  height: 40px;
+  width: 40px;
+  background-color: #ff3e79;
+  border-radius: 50%;
+}
+.mail {
+  font-family: "TT Lakes";
+}
+.numberphone {
+  font-family: "TT Lakes-Bold";
+  width: 150px;
+  margin: 0px;
+}
+.trunslite {
+  display: flex;
+  justify-content: space-between;
+  width: 100px;
+}
+p {
+  font-family: "TT Lakes";
+  font-weight: 100;
+}
+.p {
+  font-family: "TT Lakes";
+  font-weight: 100;
+}
+
+main {
+  margin: 5px;
+  font-family: "TT Lakes";
+  background-color: #f8f8f8;
+}
+
+a {
+  color: gray;
+}
+
+.main_up {
+  margin-top: 15px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-content: center;
+}
+.test {
+  display: flex;
+}
+.test--test {
+  margin-left: 55px;
+}
+.test2 {
+  display: flex;
+}
+.main_baist {
+  display: block;
+}
+
+.main_down {
+  display: block;
+}
+.menu {
+  position: absolute;
+  margin-right: 15px;
+  min-height: 40px;
+  min-width: 40px;
+  background-color: #ff3e79;
+  border-radius: 50%;
+}
+.svg-icon {
+  margin-top: 12px;
+  margin-left: 10px;
+}
+.svg-group {
+  margin-top: 10px;
+  margin-left: 10px;
+}
+.svg-setting {
+  margin-top: 10px;
+  margin-left: 10px;
+}
+.svg-poisklist {
+  margin-top: 10px;
+  margin-left: 12px;
+}
+.svg-phone {
+  margin-left: 10px;
+  margin-top: 11px;
+}
+.svg-soobh {
+  margin-left: 11px;
+  margin-top: 11px;
+}
+.text-duwn {
+  display: flex;
+  flex-direction: row;
+}
+.main--title__left {
+  margin-left: 50px;
+}
+.greyline-right {
+  margin-right: 10px;
+  margin-left: 10px;
+  margin-top: 10px;
+  min-height: 32px;
+  min-width: 3px;
+  max-width: 3px;
+  background-color: #eaeaea;
+}
+.greyline-left {
+  display: none;
+}
+.main_no {
+  height: 20px;
+  width: 35%;
+}
+.sviaz {
+  height: 40px;
+  width: 40px;
+  background-color: #ff3e79;
+  border-radius: 50%;
+  display: none;
+}
+.group {
+  margin-left: 15px;
+  height: 40px;
+  width: 40px;
+  background-color: #ff3e79;
+  border-radius: 50%;
+  display: none;
+}
+.phone {
+  margin-right: 15px;
+  height: 40px;
+  width: 40px;
+  background-color: #ff3e79;
+  border-radius: 50%;
+  display: none;
+}
+.setting {
+  min-height: 40px;
+  min-width: 40px;
+  background-color: #ff3e79;
+  border-radius: 50%;
+  margin-right: 15px;
+  max-height: 40px;
+}
+
+.line {
+  height: 35px;
+  width: 2px;
+  background-color: rgb(171, 171, 164);
+}
+.poisk {
+  min-height: 40px;
+  min-width: 40px;
+  background-color: #ff3e79;
+  border-radius: 50%;
+  max-height: 40px;
+}
+
+.main__hr {
+  text-decoration: none;
+}
+
+.logo {
+  position: absolute;
+  top: 15px;
+  left: 80px;
+}
+.main__title {
+  display: flex;
+  font-family: "TT Lakes-Bold";
+  color: #1b1c21;
+  font-size: 28px;
+  font-weight: 700;
+  line-height: 40px;
+  letter-spacing: -0.6px;
+}
+.main__title::before {
+  content: "";
+  position: absolute;
+  display: block;
+  width: 4px;
+  height: 40px;
+  background-color: #41f6d7;
+  left: 0px;
+}
+.svg-strelka::before {
+  content: "";
+}
+
+.speed {
+  -webkit-overflow-scrolling: touch;
+  overflow-x: scroll;
+  white-space: nowrap;
+  padding-bottom: 20px;
+  margin-bottom: -20px;
+}
+
+.hr {
+  display: inline-block;
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.hr li {
+  display: inline-block;
+  padding: 10px;
+  background-color: #f8fff8;
+  border-radius: 10%;
+  border: 1px solid #f8f8f8;
+  margin: 5px;
+}
+.hr li:active {
+  border-color: brown;
+}
+.main_text {
+  height: 100px;
+  width: 300px;
+}
+.main_textpasttwo {
+  margin-top: 50px;
+  display: none;
+}
+.img {
+  margin-top: 20px;
+  width: 75%;
+}
+.down__title {
+  display: flex;
+  font-family: "TT Lakes-Bold";
+  color: #1b1c21;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 40px;
+  letter-spacing: -0.6px;
+}
+
+.main_up.open .burger {
+  transform: translateX(100%);
+}
+.swiper-wrapper {
+}
+.lenovo {
+  margin: 10px;
+  width: 130px;
+  height: 40px;
+}
+.slide {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  width: 240px;
+  height: 72px;
+  border: 2px solid gray;
+  border-radius: 10px;
+}
+.more {
+  margin-right: 10px;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  border: 3px solid #ff3e79;
+}
+.swiper-pagination {
+  position: relative;
+  margin-top: 20px;
+}
+.mySwiper-wrapper {
+  display: flex;
+  justify-content: flex-start;
+  max-width: 240px;
+  gap: 24px;
+}
+@media (min-width: 768px) {
+  .main_down {
+    display: flex;
+  }
+  .main_textpasttwo {
+    display: block;
+  }
+
+  .img {
+    width: 75%;
+    margin-left: 50px;
+  }
+  .phone {
+    margin-left: 15px;
+    display: block;
+  }
+  .sviaz {
+    display: block;
+  }
+  .poisk {
+    display: block;
+  }
+  .group {
+    display: block;
+  }
+  .greyline-left {
+    margin-right: 15px;
+    margin-top: 10px;
+    height: 32px;
+    min-width: 3px;
+    max-width: 3px;
+    background-color: #eaeaea;
+    display: block;
+  }
+
+  .mySwiper-wrapper {
+    transform: translate3d(-20px, 0px, 0px) !important;
+    justify-content: center;
+    min-width: 800px;
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    grid-template-rows: minmax(auto, auto);
+    grid-gap: 15px;
+    overflow: hidden;
+    max-height: 80px;
+  }
+  .mySwiper-slide {
+    width: 220px;
+  }
+
+}
+@media (min-width: 1120px) {
+  main {
+    margin-left: 250px;
+  }
+  .menu {
+    display: none;
+  }
+  .test2 {
+    display: none;
+  }
+  .burger {
+    left: 0%;
+    height: 100%;
+    width: 250px;
+  }
+}
